@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Detail_Movie">
+
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:id="@+id/img_gambar"
+        android:padding="5dp"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_marginTop="5dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_title"
+        android:text="Nama"
+        android:paddingTop="2dp"
+        android:layout_gravity="center"
+        android:fontFamily="cusual"
+        android:textColor="#00574B"
+        android:textStyle="bold"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_releasedate"
+        android:text="Tanggal"
+        android:paddingTop="2dp"
+        android:layout_gravity="center"
+        android:fontFamily="cusual"
+        android:textColor="#00574B"
+        android:textStyle="italic"
+        android:textSize="10dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/text_overview"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_margin="15dp"
+        android:text="Penjelasan"
+        android:textStyle="bold"/>
+
+</LinearLayout>
